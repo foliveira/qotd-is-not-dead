@@ -1,0 +1,12 @@
+{
+  "name": "qotd-is-not-dead",
+  "version": "1.0.0",
+  "description": "Quote of the day server running on TCP port 17. Based on RFC 865",
+  "main": "index.js",
+  "repository": "https://github.com/foliveira/qotd-is-not-dead",
+  "author": {
+    "name": "Fábio Oliveira",
+    "url": "http://blog.foliveira.me"
+  },
+  "license": "ISC"
+}
