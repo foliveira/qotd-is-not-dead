@@ -1,6 +1,8 @@
 #Quote of the day Server
 
-This server runs on port 17 and echoes whatever a client sends to it. It is an implementation of [RFC 865](https://tools.ietf.org/html/rfc865)
+[![npm package](https://nodei.co/npm/qotd-is-not-dead.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/qotd-is-not-dead/)
+
+This server runs on port 17 and sends a quote wheh a client connects to it. It is an implementation of [RFC 865](https://tools.ietf.org/html/rfc865)
 
 ##Install
 
