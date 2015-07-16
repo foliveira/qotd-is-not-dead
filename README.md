@@ -6,7 +6,9 @@ This server runs on port 17 and sends a quote wheh a client connects to it. It i
 
 ##Install
 
-npm install -g qotd-is-not-dead
+```sh
+$ npm install -g qotd-is-not-dead
+```
 
 ##Run
 
