@@ -14,18 +14,11 @@ $ npm install -g qotd-is-not-dead
 
 You'll need to run it with elevated privileges since it uses a reserved port.
 
-```sh
-$ sudo qotd-is-not-dead
-```
 
-##Quotes source
-
-There's a file (qotd.txt) that can be updated with your quote of the day. You can update it while the server is running and the newer version will be served on the next request.
-
-You can also specify a filename with the QOTD environment variable and that will be served.
+You need to specify a filename with the QOTD environment variable. That file should contain your quote of the day
 
 ```sh
 $ sudo QOTD=fancy-quotes.txt qotd-is-not-dead
 ```
 
-The same applies, you can update the file while the server is running and the newer version will be served on the following request.
+You can then update the file while the server is running and the newer version will be served on the following request.

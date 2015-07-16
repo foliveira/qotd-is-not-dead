@@ -8,5 +8,8 @@
     "name": "Fábio Oliveira",
     "url": "http://blog.foliveira.me"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "qotd-is-not-dead": "./bin/qotd.js"
+  }
 }
